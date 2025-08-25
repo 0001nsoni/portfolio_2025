@@ -5,6 +5,8 @@ import About from "./assets/About";
 import Skills from "./assets/Skills";
 import Project from "./assets/Project";
 import Git_DSA from "./assets/Git_DSA";
+import Certification_Experience from "./assets/Certification_Exprience";
+import Contact from "./assets/Contact";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -91,16 +93,16 @@ function App() {
 
         <section
           id="certification"
-          className="min-h-screen flex items-center justify-center bg-gray-600 text-white"
+          className="min-h-screen flex items-center justify-center bg-gray-200 text-white"
         >
-          <h1 className="text-4xl font-bold">Certification Section</h1>
+          <Certification_Experience/>
         </section>
 
         <section
           id="contact"
-          className="min-h-screen flex items-center justify-center bg-gray-700 text-white"
+          className="min-h-screen flex items-center justify-center bg-gray-200 text-white"
         >
-          <h1 className="text-4xl font-bold">Contact Section</h1>
+         <Contact/>
         </section>
       </main>
     </div>

@@ -14,9 +14,12 @@ const Home = () => {
             Crafting Digital Experiences that inspire and solve 
             real-world challenges with elegance and security focus.
           </p>
-          <button className="px-6 py-3 bg-gradient-to-r from-purple-500 to-green-400 text-white font-semibold rounded-lg shadow-md hover:opacity-90 transition">
-            Explore My Work
-          </button>
+      <button
+  onClick={() => window.open("https://github.com/0001nsoni", "_blank")}
+  className="px-6 py-3 bg-gradient-to-r from-purple-500 to-green-400 text-white font-semibold rounded-lg shadow-md hover:opacity-90 transition"
+>
+  Explore My Work
+</button>
         </div>
 
         {/* Right Section - Portfolio Style */}
