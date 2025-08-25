@@ -7,7 +7,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="flex h-full items-center justify-center py-16 px-6 bg-gray-50 ">
+    <div className="flex md:h-screen items-center justify-center py-16 px-6 bg-gray-50 ">
       {/* Consistent max width like About */}
       <div className="max-w-6xl w-full">
         
