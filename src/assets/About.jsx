@@ -1,4 +1,5 @@
 import React from "react";
+import ProfilePic from "../images/ChatGPT Image Aug 17, 2025, 09_59_19 PM.png"
 
 const About = () => {
     return (
@@ -8,7 +9,7 @@ const About = () => {
 
                 <div className="flex items-center justify-center relative">
                     <img
-                        src="public/ChatGPT Image Aug 17, 2025, 09_59_19 PM.png"
+                        src={ProfilePic}
                         alt="Neeraj Soni"
                         className="h-60 w-60 object-cover rounded-full border-[6px] border-purple-400 shadow-lg relative z-10"
                     />
