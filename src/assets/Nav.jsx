@@ -12,8 +12,8 @@ function Nav() {
     "Projects",
     "GitHub&DSA",
     "Certification",
-    "Contact",
-  ];
+    "Contact"
+  ]; // Removed "Email" here ✅
 
   return (
     <div className="bg-white w-full h-[10%] flex items-center justify-between px-6 shadow-md fixed top-0 left-0 z-50">
@@ -31,14 +31,25 @@ function Nav() {
             key={link}
             href={`#${link.toLowerCase().replace("&", "").replace(" ", "")}`}
             onClick={() => setActive(link)}
-            className={`transition-colors font-medium ${active === link
+            className={`transition-colors font-medium ${
+              active === link
                 ? "text-blue-500"
                 : "text-gray-700 hover:text-blue-400"
-              }`}
+            }`}
           >
             {link}
           </a>
         ))}
+
+        {/* Desktop Email Button */}
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=Nsoni8005@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 hover:text-blue-600"
+        >
+          <span>Email</span>
+        </a>
       </div>
 
       {/* Desktop Contact Button */}
@@ -71,26 +82,25 @@ function Nav() {
                 setActive(link);
                 setMenuOpen(false);
               }}
-              className={`transition-colors font-medium ${active === link
+              className={`transition-colors font-medium ${
+                active === link
                   ? "text-blue-500"
                   : "text-gray-700 hover:text-blue-400"
-                }`}
+              }`}
             >
               {link}
             </a>
           ))}
 
-          {/* Mobile Contact Button (Fixed) */}
+          {/* Mobile Email Button */}
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=Nsoni8005@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-blue-600"
           >
-            <Mail className="w-5 h-5" />
             <span>Email</span>
           </a>
-
         </div>
       )}
     </div>
