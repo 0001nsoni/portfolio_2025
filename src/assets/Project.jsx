@@ -1,5 +1,5 @@
 import React from "react";
-import ChatAppPic from "src/images/ChatApp.png"
+import ChatAppPic from "../images/ChatApp.png"
 
 const Project = () => {
   // Project Data
