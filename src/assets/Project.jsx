@@ -1,4 +1,5 @@
 import React from "react";
+import ChatAppPic from "src/images/ChatApp.png"
 
 const Project = () => {
   // Project Data
@@ -16,7 +17,7 @@ const Project = () => {
       title:"Uber Clone",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJU5P1pGOioxnqddCZMyZURPv-g-fGmX0y3Q&s",
       desc: "A fully functional Uber clone built using the MERN stack, optimized for mobile devices. ",
-      demo: "#",
+      demo: "https://github.com/0001nsoni/Uber_Clone",
       github: "https://github.com/0001nsoni/Uber_Clone",
     },
     {
@@ -34,6 +35,14 @@ const Project = () => {
       desc: "Interactive scroll animation web page inspired by GTA 6.",
       demo: "https://gta-vi-drab.vercel.app/",
       github: "https://github.com/0001nsoni/GTA-VI-",
+    },
+    {
+      id: 5,
+      title: "ChatApp",
+      img: `${ChatAppPic}`,
+      desc: "A modern, full-stack real-time chat application built with React, Vite, TailwindCSS, Express, MongoDB, Socket.io, and Cloudinary.",
+      demo: "https://chat-app-tau-green.vercel.app/",
+      github: "https://github.com/0001nsoni/ChatApp",
     },
   ];
 
