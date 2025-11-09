@@ -37,12 +37,12 @@ const Project = () => {
       github: "https://github.com/0001nsoni/GTA-VI-",
     },
     {
-      id: 5,
-      title: "ChatApp",
-      img: `${ChatAppPic}`,
-      desc: "A modern, full-stack real-time chat application built with React, Vite, TailwindCSS, Express, MongoDB, Socket.io, and Cloudinary.",
-      demo: "https://chat-app-tau-green.vercel.app/",
-      github: "https://github.com/0001nsoni/ChatApp",
+      id: 6,
+      title: "Imagify",
+      img: `https://media.licdn.com/dms/image/v2/D562DAQHFf_XvnTUFbA/profile-treasury-image-shrink_8192_8192/B56ZmBHkVYKMAg-/0/1758807869626?e=1763280000&v=beta&t=WI0XQmY7spRYM_hg3pGWXO3VF5UiQdprKbGKwaMeH28`,
+      desc: "It’s an AI-powered image generator where users can create images using prompts and manage their credits.",
+      demo: "https://imagify-red-nine.vercel.app/",
+      github: "https://github.com/0001nsoni/Imagify",
     },
   ];
 
