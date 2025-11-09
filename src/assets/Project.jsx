@@ -36,6 +36,14 @@ const Project = () => {
       demo: "https://gta-vi-drab.vercel.app/",
       github: "https://github.com/0001nsoni/GTA-VI-",
     },
+      {
+      id: 5,
+      title: "ChatApp",
+      img: `${ChatAppPic}`,
+      desc: "A modern, full-stack real-time chat application built with React, Vite, TailwindCSS, Express, MongoDB, Socket.io, and Cloudinary.",
+      demo: "https://chat-app-tau-green.vercel.app/",
+      github: "https://github.com/0001nsoni/ChatApp",
+    },
     {
       id: 6,
       title: "Imagify",
